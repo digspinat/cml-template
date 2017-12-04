@@ -1,9 +1,10 @@
 body{
   margin: 0;
-  height: 602px;
-  width: 510px;
+  /*height: 602px;
+  width: 510px;*/
+  background-color: "#285DAB";
 }
 .templatesize{
-  width: 450px;
-  height: 582px;
+  /*width: 450px;
+  height: 582px;*/
 }
