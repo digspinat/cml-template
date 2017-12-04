@@ -4,7 +4,6 @@ import style from "./template.css";
 export default ({ data }) => {
   const manual = data.markdownRemark
   return (
-    <div style={{backgroundColor: "#285DAB"}}>
       <div style={{ backgroundColor: "#285DAB", height: `582px`,maxWidth: "450px", margin: '0 auto', paddingLeft: `30px`, paddingRight: `30px`, paddingTop: `20px`}}>
         <div>
           <p style={{ fontSize: `50px`, color: "white", fontFamily: "Times New Roman" }}>{manual.frontmatter.brand}&nbsp;<img src={manual.frontmatter.logo} style={{ height: `65px`, width: `67px`, verticalAlign: `middle` }} /></p>
@@ -16,7 +15,6 @@ export default ({ data }) => {
           <p style={{ color: "#CCCCCC", textAlign: `right` }}>{manual.frontmatter.downloadid}</p>
         </div>
       </div>
-    </div>
   )
 }
 
