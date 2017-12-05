@@ -4,7 +4,7 @@ import style from "./template.css";
 export default ({ data }) => {
   const manual = data.markdownRemark
   return (
-      <div style={{ backgroundColor: "#285DAB", padding: "40px"}}>
+      <div style={{ backgroundColor: "#285DAB", padding: "40px", paddingBottom: "10px"}}>
         <div>
           <p style={{ fontSize: `150px`, color: "white", fontFamily: "Times New Roman" }}>{manual.frontmatter.brand}&nbsp;<img src={manual.frontmatter.logo} style={{ height: `200px`, width: `200px`, verticalAlign: `middle` }} /></p>
           <p style={{ fontSize: `100px`, fontWeight: `bold`, marginTop: `-100px`, color: "white" }}>{manual.frontmatter.series}</p>
@@ -12,7 +12,7 @@ export default ({ data }) => {
           <h1 style={{ fontSize: `80px`, marginTop: `-50px`, color: "#00B900" }}>{manual.frontmatter.manual1}</h1>
           <h1 style={{ fontSize: `80px`, marginTop: `-50px`, color: "#00B900" }}>{manual.frontmatter.manual2}</h1>
           <img src={manual.frontmatter.carimage} height="854px" width="100%"/>
-          <p style={{ fontSize: `50px`, color: "#CCCCCC", textAlign: `right` }}>{manual.frontmatter.downloadid}</p>
+          <p style={{ fontSize: `20px`, color: "#CCCCCC", textAlign: `right` }}>{manual.frontmatter.downloadid}</p>
         </div>
       </div>
   )
