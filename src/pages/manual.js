@@ -11,7 +11,7 @@ export default ({ data }) => {
           <p style={{ fontSize: `100px`, fontWeight: `bold`, marginTop: `-10px`, color: "white" }}>{manual.frontmatter.year}</p>
           <h1 style={{ fontSize: `80px`, marginTop: `-10px`, color: "#00B900" }}>{manual.frontmatter.manual1}</h1>
           <h1 style={{ fontSize: `80px`, marginTop: `-10px`, color: "#00B900" }}>{manual.frontmatter.manual2}</h1>
-          <img src={manual.frontmatter.carimage} height="854px" width="1100px"/>
+          <img src={manual.frontmatter.carimage} height="854px" width="1000px"/>
           <p style={{ fontSize: `50px`, color: "#CCCCCC", textAlign: `right` }}>{manual.frontmatter.downloadid}</p>
         </div>
       </div>
